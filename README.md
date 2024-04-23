@@ -3,7 +3,19 @@
 We overview and implement Kirk's approximation to price the spead option on two futures contracts.
 
 The payoff of a spread option on two futures contracts is given by
-$$c_T =  {\rm max}[0,F_1-F_2-K]  $$
+<div align="center">
+<table>
+<tbody>
+<td align="center">
+<img width="20" height="1"><br>
+  $$c_T =  {\rm max}[0,F_1-F_2-K]  $$
+<img width="20" height="1">
+</td>
+</tbody>
+</table>
+</div>
+
+
 where $F_1$ and $F_2$ are the prices of the future contracts and $K$ is a constant spread. Let's say you are an oil refinery then your profit depends on the difference in price between crude oil and heating oil, so you'lll be interested in spread options with these two as the underlying. <kbd>like</kbd> 
 
 In Kirk's approximation we take $Z(T)=F_2(T)+K$ to have a lognormal distribution with initial value $Z(0) = F_2+Ke^{-rT}$.\
@@ -29,7 +41,11 @@ where $\rho$ is the correlation between the two futures contracts. Kirk's approo
 
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/f7292ffd-d914-47c6-a262-1fc7bbd46568) ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/5e387923-4513-4ed0-a00f-a86f0b3af805)
 
+$$\color{blue}{X \sim Normal \; (\mu,\sigma^2)}$$
+
+<p align="center">
+  <img width="10" height="5" src="https://github.com/alexisdpc/Kirks-approximation/assets/124795834/6d16a2b7-5f2b-4c6d-a360-4aa8fffdcaa4">
+</p>
 
 
-![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/6d16a2b7-5f2b-4c6d-a360-4aa8fffdcaa4)
 
