@@ -4,7 +4,7 @@ We overview and implement Kirk's approximation to price the spead option on two 
 
 The payoff of a spread option on two futures contracts is given by
 $$c_T =  {\rm max}[0,F_1-F_2-K]  $$
-where $F_1$ and $F_2$ are the prices of the future contracts and $K$ is a constant spread. Let's say you are an oil refinery then your profit depends on the difference in price between crude oil and heating oil, so you'lll be interested in spread options with these two as the underlying.
+where $F_1$ and $F_2$ are the prices of the future contracts and $K$ is a constant spread. Let's say you are an oil refinery then your profit depends on the difference in price between crude oil and heating oil, so you'lll be interested in spread options with these two as the underlying. <kbd>like</kbd> 
 
 In Kirk's approximation we take $Z(T)=F_2(T)+K$ to have a lognormal distribution with initial value $Z(0) = F_2+Ke^{-rT}$.\
 The volatility for $Z$ is value wieghted  using the relative proportions for the positions:
