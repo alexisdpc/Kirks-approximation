@@ -7,9 +7,9 @@ The payoff of a spread option on two futures contracts is given by
 <table>
 <tbody>
 <td align="center">
-<img width="20" height="1"><br>
+<img width="20" height="0"><br>
   $$c_T = {\rm max}[0,F_1-F_2-K]$$
-<img width="20" height="1">
+<img width="20" height="0">
 </td>
 </tbody>
 </table>
@@ -41,10 +41,6 @@ where $\rho$ is the correlation between the two futures contracts.
 ## Delta
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/f7292ffd-d914-47c6-a262-1fc7bbd46568) ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/5e387923-4513-4ed0-a00f-a86f0b3af805)
 
-<p>
-    <img src="https://github.com/alexisdpc/Kirks-approximation/assets/124795834/f7292ffd-d914-47c6-a262-1fc7bbd46568" >
-    <img src="https://github.com/alexisdpc/Kirks-approximation/assets/124795834/5e387923-4513-4ed0-a00f-a86f0b3af805" >
-</p>
 
 $$\color{blue}{X \sim Normal \; (\mu,\sigma^2)}$$
 
