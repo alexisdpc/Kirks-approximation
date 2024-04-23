@@ -5,8 +5,6 @@ We overview and implement Kirk's approximation to price the spead option on two 
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/6d16a2b7-5f2b-4c6d-a360-4aa8fffdcaa4)
 
 
-![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/b3cb7bf5-c07d-4fb8-a1bb-3663c9ec3a29)![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/df2db11d-ffd1-46f4-bd8f-d71f74cbc4ac)
-
-
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/f7292ffd-d914-47c6-a262-1fc7bbd46568) ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/5e387923-4513-4ed0-a00f-a86f0b3af805)
 
 
