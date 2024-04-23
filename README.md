@@ -24,6 +24,7 @@ $$\sigma_Z = \frac{F_2}{F_2+Ke^{-rT}} \sigma_2 $$
 Lets' take the generalized Black-Scholes equation with
 $$S= F_1 \hspace{1cm} {\rm Strike} = F_2+K$$
 
+
 from which we obtain the value of the call
 $$c= (F_2+K) e^{-rt}[F \, N(d_1) - N(d_2)]$$
 where 
@@ -39,6 +40,11 @@ where $\rho$ is the correlation between the two futures contracts.
 
 ## Delta
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/f7292ffd-d914-47c6-a262-1fc7bbd46568) ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/5e387923-4513-4ed0-a00f-a86f0b3af805)
+
+<p>
+    <img src="https://github.com/alexisdpc/Kirks-approximation/assets/124795834/f7292ffd-d914-47c6-a262-1fc7bbd46568" >
+    <img src="https://github.com/alexisdpc/Kirks-approximation/assets/124795834/5e387923-4513-4ed0-a00f-a86f0b3af805" >
+</p>
 
 $$\color{blue}{X \sim Normal \; (\mu,\sigma^2)}$$
 
