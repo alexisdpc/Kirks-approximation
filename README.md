@@ -55,8 +55,8 @@ $$\mathcal{V} = \frac{\partial c}{\partial \sigma} = F_1 e^{-rT} e^{-d_1^2/2} \s
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/7fe79cc4-0ee5-492c-8dca-0c2f40dee2bb)
 
 # Call option price:
-![Uploading image.png…]()
-
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/c5900dff-fe0c-48ff-ad2a-725fc4b576e7)
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/ed5e0645-9162-421a-b194-93e09e58d4a6)
 
 
 <p align="center">
