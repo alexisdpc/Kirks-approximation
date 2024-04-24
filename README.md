@@ -42,14 +42,21 @@ $$\Delta_1 = \frac{\partial c}{\partial F_1} = e^{-rT} N(d_1) $$
 or with respect to $F_2$:
 $$\Delta_2 = \frac{\partial c}{\partial F_2} = e^{-rT} \left[ -N(d_2) +(F_2+K) e^{-d_2^2/2} \sqrt{T}  \frac{\partial \sigma}{\partial F_2} \right]$$
 and we have that 
-$$ \frac{\partial \sigma}{\partial F_2} = \frac{ \sigma_2 K (\beta - \rho \sigma_1)  }{ \sigma (F_2+K)^2 } $$
+$$\frac{\partial \sigma}{\partial F_2} = \frac{ \sigma_2 K (\beta - \rho \sigma_1)  }{ \sigma (F_2+K)^2 } $$
 where
 $$\beta =\frac{\sigma_2 F_2}{F_2+K} $$
 
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/71cbc4e6-b912-4928-bae7-08487388fe09)![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/11211df1-50ff-4639-9452-3db921fca55c)
 
 ## Vega
+Vega gives the sensitivity to the implied volatility
+$$\mathcal{V} = \frac{\partial c}{\partial \sigma} = F_1 e^{-rT} e^{-d_1^2/2} \sqrt{T} $$
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/a2ab53e1-1aee-4803-98db-1982a47bfc44)
+
+
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/fe0fda07-ad94-44ee-9e89-206adf3f7177)
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/b0bc0b66-3248-42b5-aa41-c92dd5e5b81d)
+
 
 
 
