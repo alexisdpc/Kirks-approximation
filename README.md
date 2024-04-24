@@ -37,7 +37,20 @@ where $\rho$ is the correlation between the two futures contracts.
 >  Kirk's approoximation works for small $K$.
 
 ## Delta
-![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/f7292ffd-d914-47c6-a262-1fc7bbd46568) ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/5e387923-4513-4ed0-a00f-a86f0b3af805)
+We can have either Delta with respect to $F_1$:
+$$\Delta_1 = \frac{\partial c}{\partial F_1} = e^{-rT} N(d_1) $$
+or with respect to $F_2$:
+$$\Delta_2 = \frac{\partial c}{\partial F_2} = e^{-rT} \left[ -N(d_2) +(F_2+K) e^{-d_2^2/2} \sqrt{T}  \frac{\partial \sigma}{\partial F_2} \right]$$
+and we have that 
+$$ \frac{\partial \sigma}{\partial F_2} = \frac{ \sigma_2 K (\beta - \rho \sigma_1)  }{ \sigma (F_2+K)^2 } $$
+where
+$$\beta =\frac{\sigma_2 F_2}{F_2+K} $$
+
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/71cbc4e6-b912-4928-bae7-08487388fe09)![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/11211df1-50ff-4639-9452-3db921fca55c)
+
+## Vega
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/a2ab53e1-1aee-4803-98db-1982a47bfc44)
+
 
 
 <p align="center">
