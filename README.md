@@ -44,18 +44,18 @@ and we have that
 $$\frac{\partial \sigma}{\partial F_2} = \frac{ \sigma_2 K (\beta - \rho \sigma_1)  }{ \sigma (F_2+K)^2 } $$
 where
 $$\beta =\frac{\sigma_2 F_2}{F_2+K} $$
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/4539e204-2471-4ccd-9fc5-cd0cf25bd95e)
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/2d50300b-4cc8-455d-8fd8-5b25cc1462c7)
 
-![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/71cbc4e6-b912-4928-bae7-08487388fe09)![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/11211df1-50ff-4639-9452-3db921fca55c)
+
 
 ## Vega
 Vega gives the sensitivity to the implied volatility
 $$\mathcal{V} = \frac{\partial c}{\partial \sigma} = F_1 e^{-rT} e^{-d_1^2/2} \sqrt{T} $$
-![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/a2ab53e1-1aee-4803-98db-1982a47bfc44)
+![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/7fe79cc4-0ee5-492c-8dca-0c2f40dee2bb)
 
-
-![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/fe0fda07-ad94-44ee-9e89-206adf3f7177)
-![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/b0bc0b66-3248-42b5-aa41-c92dd5e5b81d)
-
+# Call option price:
+![Uploading image.png…]()
 
 
 
