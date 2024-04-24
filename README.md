@@ -1,7 +1,5 @@
 # Kirk's approximation for pricing Spread Options
 
-We overview and implement Kirk's approximation to price the spead option on two futures contracts.
-
 The payoff of a spread option on two futures contracts is given by
 <div align="center">
 <table>
