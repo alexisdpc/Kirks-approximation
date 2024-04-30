@@ -1,6 +1,6 @@
 # Kirk's approximation for pricing Spread Options
 
-The payoff of a spread option on two futures contracts is given by
+The payoff of a spread option on two futures contracts is given b
 <div align="center">
 <table>
 <tbody>
