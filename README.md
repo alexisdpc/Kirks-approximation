@@ -22,7 +22,7 @@ $$\sigma_Z = \frac{F_2}{F_2+K} \sigma_2 $$
 
 
 Lets' take the generalized Black-Scholes equation with
-$$S= F_1 \hspace{1cm} {\rm Strike} = F_2+K$$
+$$S= F_1$$ $${\rm Strike} = F_2+K$$
 
 from which we obtain the value of the call
 $$c= (F_2+K) e^{-rt}[F  N(d_1) - N(d_2)]$$
