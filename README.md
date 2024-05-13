@@ -1,5 +1,7 @@
 # Kirk's approximation for pricing Spread Options
-
+<p align="center">
+  <img width="600" height="200" src="https://github.com/alexisdpc/Kirks-approximation/assets/124795834/6d16a2b7-5f2b-4c6d-a360-4aa8fffdcaa4">
+</p>
 The payoff of a spread option on two futures contracts is given by:
 <div align="center">
 <table>
@@ -59,9 +61,6 @@ $$\mathcal{V} = \frac{\partial c}{\partial \sigma} = F_1 e^{-rT} e^{-d_1^2/2} \s
 ![image](https://github.com/alexisdpc/Kirks-approximation/assets/124795834/ed5e0645-9162-421a-b194-93e09e58d4a6)
 
 
-<p align="center">
-  <img width="10" height="5" src="https://github.com/alexisdpc/Kirks-approximation/assets/124795834/6d16a2b7-5f2b-4c6d-a360-4aa8fffdcaa4">
-</p>
 
 
 
