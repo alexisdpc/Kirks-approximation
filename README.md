@@ -2,7 +2,7 @@
 <p align="center">
   <img width="600" height="200" src="https://github.com/alexisdpc/Kirks-approximation/assets/124795834/6d16a2b7-5f2b-4c6d-a360-4aa8fffdcaa4">
 </p>
-The payoff of a spread option on two futures contracts is given by
+The payoff of a spread option on two futures contracts is given by:
 <div align="center">
 <table>
 <tbody>
